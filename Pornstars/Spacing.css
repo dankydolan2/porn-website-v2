@@ -1,0 +1,25 @@
+.auto-resizable-iframe {
+    max-width: 500px;
+    margin: 0px auto;
+  }
+  
+  .auto-resizable-iframe > div {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0px;
+  }
+  
+  .auto-resizable-iframe iframe {
+    position: absolute;
+    top: 50px;
+    right: 300px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .august-taylor {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+  }
