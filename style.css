@@ -23,3 +23,19 @@
     width: 100%;
     height: 100%;
   }
+
+  .embed-holder {
+    max-width: 100%;
+    overflow: hidden;
+    padding-top: 30px;
+    padding-bottom: 56.25%; /* ensuring 16:9 aspect ratio; 
+  use 75% for a 4:3 ratio */
+  }
+
+  .embed-holder iframe {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+  }
